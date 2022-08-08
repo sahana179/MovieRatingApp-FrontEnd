@@ -1,0 +1,26 @@
+https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2022
+
+-------------------------------------------------------------
+postgre DB installation
+https://www.enterprisedb.com/postgresql-tutorial-resources-training?uuid=db55e32d-e9f0-4d7c-9aef-b17d01210704&campaignId=7012J000001NhszQAC
+
+credentials
+postgre
+root
+
+to open postgre db windows button search : pgadmin
+
+---------------------------------------------
+host java API
+java -Dserver.port=8080 -Dspring.config.location=application.properties -jar movie-0.0.1-SNAPSHOT.jar
+
+---------------------------------------------
+DB creation 
+ 
+1. install DB postgresql and mongodb
+2. start node api and java API
+3. postman start and import Movie.postman_collection in javaapi folder
+4. create user from postman user api
+5. then db will be created in postre 
+6. using node api create some movies
+6. start ui application and start loggin 

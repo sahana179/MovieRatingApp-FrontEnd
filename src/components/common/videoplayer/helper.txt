@@ -1,0 +1,17 @@
+  React.useEffect(() => {
+    const controlsWrapper = document.querySelector(".controls");
+
+    const keyUpFunc = e => {
+      if (e.keyCode === 32) {
+        console.log("fuck");
+      }
+    };
+
+    controlsWrapper.addEventListener("keyup", keyUpFunc);
+    console.log("mounting...");
+
+    return () => {
+      controlsWrapper.removeEventListener("keyup", keyUpFunc);
+      console.log("unmounting...");
+    };
+  }, []);
